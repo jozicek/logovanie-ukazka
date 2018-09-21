@@ -21,7 +21,6 @@ public class Main {
 
     //ale toto nie:
     LOGGER.trace("Toto sa nezaloguje lebo je to nizzsi level ako DEBUG");
-
     //takto jednoducho vlozis do logu premennu:
     String den = "Nedela";
     LOGGER.debug("Dneska je {}", den);
@@ -40,7 +39,7 @@ public class Main {
     //nasleduje ilustrativny priklad ako zalogovat exceptionu:
 
     int a = 10;
-    int b = 2;
+    int b = 0;
 
     try{
       int vysledok = a / b;
